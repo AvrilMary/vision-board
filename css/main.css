@@ -1,0 +1,89 @@
+/***** BASE STYLES*****/
+
+body {
+    background: #E8E8E8;
+}
+
+#vision-board {
+    background: url('../img/background.png');
+    background-size: cover;
+    font-family: 'Montserrat';
+    font-size: 20px;
+    font-weight: bold;
+    height: 850px;
+    margin: 50px auto;
+    overflow: auto;
+    line-height: 18px;
+    text-transform: uppercase;
+    width: 1200px;
+}
+
+/***** Styling of blocks *****/
+
+.large-block, .small-block {
+    box-sizing: border-box;
+    float: left;
+    width: 400px;
+}
+
+.large-block {
+    height: 430px;
+    padding: 55px 30px 55px 30px;
+}
+
+.small-block {
+    height: 210px;
+    padding: 20px 25px 20px 25px;
+}
+
+/***** Class to align content *****/
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-left {
+    text-align: left;
+}
+
+/***** Classes to assign backgrounds *****/
+.dark-bg {
+    background-image: url('../img/background.png');
+}
+
+.light-bg {
+    background-color: #FFFFFF;
+}
+
+.title-bg, .title-bg p {
+    background-color: #3B3B3B;
+    color: #FFFFFF;
+    font-size: 30px;
+    line-height: 37px;
+}
+
+/***** Classes and organization of fonts *****/
+p strong {
+    font-size: 38px;
+    line-height:8px;
+    text-transform: capitalize;
+}
+
+.list-items {
+    font-weight: bold;
+    line-height: 13px;
+}
+
+.title-bg span {
+    font-family: 'Permanent Marker';
+}
+
+.highlight span{
+    background: #FFF44F;
+    line-height: 55px;
+    padding: 6px;
+}
